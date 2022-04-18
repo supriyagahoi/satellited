@@ -10,6 +10,7 @@
   <title>
     Satellite Map Tracker
 </title>
+ <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />	
 
 	  <!-- Include the CesiumJS JavaScript and CSS files -->
   <script src="https://cesium.com/downloads/cesiumjs/releases/1.79.1/Build/Cesium/Cesium.js"></script>
@@ -256,9 +257,11 @@ for (i=0; i <  datasetSize; i++) {
 <header>
 <h3>Orbital Debris Cesium Demonstration</h3>
 </header> -->
-
+//audio on add
+<audio autoplay loop src="assets/Enceladus Hiss audio 256 kbps.mp3"></audio>
 <section style="height: 100%; width: 100%;">
   <div id="cesiumContainer"></div>
+  	
   <script>
    // var CESIUM_BASE_URL = new URL("https://cdnjs.cloudflare.com/ajax/libs/webpack-cesium/1.37.0/");
   // Initialize the Cesium viewer.
@@ -350,9 +353,5 @@ for (i=0; i <  datasetSize; i++) {
   initiateSimulation() ;
 	 </script>
 </section>
-<div> 
-//audio on add
-<audio autoplay loop src="assets/Enceladus Hiss audio 256 kbps.mp3"></audio>
-</div>
 </body>
 </html>
